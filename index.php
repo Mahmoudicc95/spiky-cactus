@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>spiky cactus</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-                        <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <!-- Includes header -->
+  <?php include 'partial/header.php';?>
+  
+
 </head>
 <body>
+<?php include 'partial/navbar.php';?>
 
-<div class="jumbotron text-center">
+<!-- <div class="jumbotron text-center">
   <h1>My First Bootstrap Page</h1>
   <p></p>
 </div>
@@ -35,7 +32,12 @@
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
   </div>
-</div>
+</div> -->
+
+ <!-- Includes Footer -->
+ <?php include 'partial/footer.php';?>
+ <?php include 'partial/script.php';?>
+
 
 </body>
 </html>
